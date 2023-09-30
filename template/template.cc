@@ -5,6 +5,7 @@ using namespace std;
 
 #define f(i, start, end, interval) for(ll i = start; i < end; i = i + interval)
 #define cf(i, start, end, interval) for(ll i = start; i <= end; i = i + interval)
+#define rangef(item, container) for(const auto& item: container)
 
 
 ll gcd(ll a, ll b) {return b == 0 ? a : gcd(b, a%b);}
@@ -16,6 +17,7 @@ int main()
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	#endif
+
 
 
 	return 0;
